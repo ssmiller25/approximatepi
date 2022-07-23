@@ -1,0 +1,9 @@
+tasks:
+  - name: Install Hugo
+    init: |
+      brew install hugo
+vscode:
+  extensions:
+    - vscode.markdown
+    - eamodio.gitlens
+    - robole.markdown-snippets

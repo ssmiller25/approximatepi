@@ -1,0 +1,10 @@
+baseURL: 'http://approximatepi.com/'
+languageCode: 'en-us'
+title: 'Approximate Pi'
+
+theme: 'minimal-pi'
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -20,7 +20,7 @@ Targeted platforms:
 
 ## Theme
 
-Based on [A better mother-loving website](http://bettermotherfuckingwebsite.com/)
+Based on [A better mother-loving website](http://bettermotherfuckingwebsite.com/) and walking through [this article on creating a Hugo Theme](https://draft.dev/learn/creating-hugo-themes)
 
 ## Research
 

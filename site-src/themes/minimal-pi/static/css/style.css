@@ -1,0 +1,11 @@
+  .navbar{  
+ display: flex;  
+ align-items: center;  
+ justify-content: space-between;  
+ height: 25px;  
+ background: gainsboro;  
+ padding: 10px;  
+}  
+.navbar__right{  
+ display: flex;  
+}  

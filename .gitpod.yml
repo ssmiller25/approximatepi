@@ -1,7 +1,10 @@
+
 tasks:
   - name: Install Hugo
     init: |
       brew install hugo
+
 vscode:
   extensions:
+    - streetsidesoftware.code-spell-checker
     - eamodio.gitlens

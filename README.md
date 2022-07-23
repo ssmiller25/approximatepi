@@ -18,6 +18,11 @@ Targeted platforms:
   - AWS (S3/Cloudfront) (Low cost on S3, Cloudfront free up to certain limits)
 
 
+## Theme
+
+Based on [A better mother-loving website](http://bettermotherfuckingwebsite.com/)
+
 ## Research
 
 - [Google Cloud Storage - How to Host a Static Website](https://cloud.google.com/storage/docs/hosting-static-website)
+- [Hugo Modules for Themes](https://www.hugofordevelopers.com/articles/master-hugo-modules-managing-themes-as-modules/)

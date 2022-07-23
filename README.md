@@ -1,4 +1,9 @@
-# Approximate Pi Site - 22/7
+# Approximate Pi Day - 22/7
+
+Main Site: [https://approximatepiday.com](https://approximatepiday.com)
+Other Sites and Details in [about page](https://approximatepiday.com/about/)
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
 
 A demo of using JAMStack technologies to build more a more ["personal" web](https://yesterweb.org/).  The primary page is to celebrate Approximate Pi Day - July 22ed.  The date matches the fraction 22/7, decimal it's 3.1428, which is pretty close to Pi at ~3.1415.  Good enough for most calculation.
 
@@ -7,6 +12,7 @@ This site will use hugo to generate HTML from the markdown source.  A Linux `Mak
 Targeted platforms:
 
 - Free
+  - Cloudfront Pages - Main https://approximatepiday.com site
   - Neocities
   - Github Pages
   - Netlify

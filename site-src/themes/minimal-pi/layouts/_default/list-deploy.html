@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{ .Content }} 
+        </div>
+        <h2>Deployments</h2>
+        <ul>
+      
+          {{ $taggedPages := index .Site.Taxonomies.tags.deploy.Pages }}
+          {{ range $taggedPages }}
+
+            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ if isset .Params "targetsiteurl" }} - <a href="{{ .Params.targetSiteUrl }}">{{ .Params.targetSiteUrl }}</a>{{ end }}</li>
+
+          {{ end }}
+        </ul>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

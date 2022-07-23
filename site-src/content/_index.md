@@ -1,11 +1,13 @@
 ---
 title: "Home"
-description: "Approximate Pi Home Page"
+description: "Approximate Pi Date Home Page"
 type: "single"
-# menu: main
+tags:
+  - main
 # Index hard-coded into theme
+# menu: main
 ---
-# Welcome to The Celebration of Approximate Pi!
+# Welcome to The Celebration of Approximate Pi Day!
 
 <p align="center" style="font-size: 2em;">22/7 ≈ 3.1428</p>
 

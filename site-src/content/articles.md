@@ -3,6 +3,8 @@ title: "Articles"
 description: "Approximate Pi Home Page"
 type: single
 menu: main
+tags:
+  - main
 ---
 # Articles
 

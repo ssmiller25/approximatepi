@@ -10,10 +10,12 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
-      - uses: webfactory/ssh-agent@v0.5.4
+      - name: "Add Key"
+        uses: shimataro/ssh-key-action@v2
         with:
-            ssh-private-key: ${{ secrets.SSH_PRIVATE }}
+          key: ${{ secrets.SSH_PRIVATE }}
       - name: Sync with Codeberg
         run: |
+          ssh-keyscan codeberg.org > ~/.ssh/known_hosts
           git remote add upstream-codeburg git@codeberg.org:ssmiller25/approximatepi.git
           git push upstream-codeburg

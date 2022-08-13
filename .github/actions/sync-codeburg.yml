@@ -1,0 +1,19 @@
+name: Codeburg Sync
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  sync-codeburg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - uses: webfactory/ssh-agent@v0.5.4
+        with:
+            ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Sync with Codeberg
+        run: |
+          git add upstream-codeburg git@codeberg.org:ssmiller25/approximatepi.git
+          git push upstream-codeburg

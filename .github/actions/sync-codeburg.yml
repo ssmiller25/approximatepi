@@ -1,11 +1,19 @@
-name: GitHub Info
+name: Codeburg Sync
 on: 
-  - workflow_dispatch
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 jobs:
-  info:
+  sync-codeburg:
     runs-on: ubuntu-latest
     steps:
-
       - name: Check out repository code
         uses: actions/checkout@v3
-# TODO: Any built-in action to leverage SSH key from secret?
+      - uses: webfactory/ssh-agent@v0.5.4
+        with:
+            ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Sync with Codeberg
+        run: |
+          git add upstream-codeburg git@codeberg.org:ssmiller25/approximatepi.git
+          git push upstream-codeburg

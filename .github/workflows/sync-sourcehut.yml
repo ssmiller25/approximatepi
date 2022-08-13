@@ -14,8 +14,8 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.SSH_PRIVATE }}
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
       - name: Sync with Sourcehut
         run: |
-          ssh-keyscan git.sr.ht > ~/.ssh/known_hosts
           git remote add upstream-sourcehut git@git.sr.ht:~ssmiller25/approximatepi
           git push upstream-sourcehut

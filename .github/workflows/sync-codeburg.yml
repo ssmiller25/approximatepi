@@ -14,8 +14,8 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.SSH_PRIVATE }}
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
       - name: Sync with Codeberg
         run: |
-          ssh-keyscan codeberg.org > ~/.ssh/known_hosts
           git remote add upstream-codeburg git@codeberg.org:ssmiller25/approximatepi.git
           git push upstream-codeburg

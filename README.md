@@ -28,6 +28,13 @@ Targeted platforms:
 
 Based on [A better mother-loving website](http://bettermotherfuckingwebsite.com/) and walking through [this article on creating a Hugo Theme](https://draft.dev/learn/creating-hugo-themes)
 
+## SSH Keys
+
+```sh
+gp env SSH_PRIVATE="$(cat ~/.ssh/id_rsa | base64)"
+gp env SSH_PUBLIC="$(cat ~/.ssh/id_rsa.pub | base64)"
+```
+
 ## Research
 
 - [Google Cloud Storage - How to Host a Static Website](https://cloud.google.com/storage/docs/hosting-static-website)

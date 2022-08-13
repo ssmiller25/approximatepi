@@ -15,5 +15,5 @@ jobs:
             ssh-private-key: ${{ secrets.SSH_PRIVATE }}
       - name: Sync with Codeberg
         run: |
-          git add upstream-codeburg git@codeberg.org:ssmiller25/approximatepi.git
+          git remote add upstream-codeburg git@codeberg.org:ssmiller25/approximatepi.git
           git push upstream-codeburg

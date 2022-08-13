@@ -15,5 +15,5 @@ jobs:
             ssh-private-key: ${{ secrets.SSH_PRIVATE }}
       - name: Sync with Sourcehut
         run: |
-          git add upstream-sourcehut git@git.sr.ht:~ssmiller25/approximatepi
+          git remote add upstream-sourcehut git@git.sr.ht:~ssmiller25/approximatepi
           git push upstream-sourcehut

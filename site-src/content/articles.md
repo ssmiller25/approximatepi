@@ -12,7 +12,7 @@ tags:
 
 ## Interesting Sites
 
-[Pi-Clock.com](http://pi-clock.com/?clock-type=24) - Current time, highlighted within the first 10,000 digits of Pi
+[Pi-Clock.com](http://pi-clock.com/?clock-type=24) - Current time, highlighted within the first 100,000 digits of Pi.  [Source](https://github.com/mhirst1960/pi-clock)
 
 ## Social Media
 

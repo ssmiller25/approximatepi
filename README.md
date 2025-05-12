@@ -3,7 +3,9 @@
 Main Site: [https://approximatepiday.com](https://approximatepiday.com)
 Other Sites and Details in [about page](https://approximatepiday.com/about/)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
+- [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ssmiller25/approximatepi?quickstart=1)
+- [![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/ssmiller25/approximatepi)
+
 
 A demo of using JAMStack technologies to build more a more ["personal" web](https://yesterweb.org/).  The primary page is to celebrate Approximate Pi Day - July 22ed.  The date matches the fraction 22/7, decimal it's 3.1428, which is pretty close to Pi at ~3.1415.  Good enough for most calculation.
 

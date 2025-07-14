@@ -17,4 +17,3 @@ Pretty darn close to real pi ([about 0.004% according to wikipedia](https://en.w
 
 ## Annual Celebration: July 22nd!  (7/22)
 
-Missed it a bit for 2022, but next year will look to do something interesting.

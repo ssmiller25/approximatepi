@@ -7,7 +7,7 @@ Other Sites and Details in [about page](https://approximatepiday.com/about/)
 - [![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/ssmiller25/approximatepi)
 
 
-A demo of using JAMStack technologies to build more a more ["personal" web](https://yesterweb.org/).  The primary page is to celebrate Approximate Pi Day - July 22ed.  The date matches the fraction 22/7, decimal it's 3.1428, which is pretty close to Pi at ~3.1415.  Good enough for most calculation.
+A demo of using JAMStack technologies to build more a minimal website, apart from social media.  The primary page is to celebrate Approximate Pi Day - July 22ed.  The date matches the fraction 22/7, decimal it's 3.1428, which is pretty close to Pi at ~3.1415.  Good enough for most calculation.
 
 This site will use hugo to generate HTML from the markdown source.  A Linux `Makefile` will contain all the processes needed to build and deploy to various free hosting sites.  Pipelines will exist in Github Actions, but that is not required.
 
@@ -29,13 +29,6 @@ Targeted platforms:
 ## Theme
 
 Based on [A better mother-loving website](http://bettermotherfuckingwebsite.com/) and walking through [this article on creating a Hugo Theme](https://draft.dev/learn/creating-hugo-themes)
-
-## SSH Keys
-
-```sh
-gp env SSH_PRIVATE="$(cat ~/.ssh/id_rsa | base64)"
-gp env SSH_PUBLIC="$(cat ~/.ssh/id_rsa.pub | base64)"
-```
 
 ## Research
 

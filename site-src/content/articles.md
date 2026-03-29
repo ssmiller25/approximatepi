@@ -9,6 +9,7 @@ tags:
 # Articles
 
 [How Much Pi Do You Need](https://blogs.scientificamerican.com/observations/how-much-pi-do-you-need/)
+[Approximate Pi By Dropping Needles On The Floor](https://www.wired.com/story/you-can-approximate-pi-by-dropping-needles-on-the-floor/)
 
 ## Interesting Sites
 
